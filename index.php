@@ -1,15 +1,20 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Prime Engenharia</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
-</head>
-<body>
-Olá
-    
-</body>
-</html>
+<?php
+session_start();
+
+require 'config.php';
+
+spl_autoload_register(function($class){
+
+	if ( file_exists('controllers/'.$class.'.php')){
+		require 'controllers/'.$class.'.php';
+	}else if(file_exists('models/'.$class.'.php')){
+		require 'models/'.$class.'.php';
+	}else if(file_exists('core/'.$class.'.php')){
+		require 'core/'.$class.'.php';
+	}
+});
+
+$core = new Core();
+
+$core->run();
+

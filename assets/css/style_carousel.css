@@ -1,0 +1,93 @@
+body{
+	margin: 0;
+	padding: 0;
+	
+}
+.barra-top{
+	background-color: #ddd;
+
+}
+.navbar{
+	
+	border-bottom: 5px solid #212456;
+
+}
+.nav-item{
+	
+	color: #212456;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.nav-item:hover{
+	border: 1px solid #212456;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #212456;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.navbar-brand{
+	border: 2px solid #212456;
+	border-radius: 5px;
+	background-color: #212456;
+	
+}
+
+.login{
+	border: 1px solid #212456;
+	border-radius: 5px;
+	margin-left: 10px;
+	color: #212456;
+}
+.login:hover{
+	border: 1px solid #212aaa;
+	background-color: #212456;
+	color: #fff;
+}
+.enviar{
+	border: 1px solid #212456;
+	color:#212456;
+}
+.enviar:hover{
+	background-color: #212456;
+	color: #FFF;
+}
+
+.apresenta{
+	margin-top: 100px;
+	
+
+}
+.container{
+	
+}
+.footer{
+	text-align: center;
+	padding-top: 0px;
+	padding-left: 0;
+	padding-right: 0;  
+	padding-bottom: 0;
+	text-decoration: none;
+	background-color: #212456;
+	color: #FFF;
+	height: 115px;
+	line-height: 115px;
+	
+
+}
+#servicos{
+	height: 550px;
+	background-color: #da552f;
+}
+#produtos{
+	height: 550px;
+	background-color: #ccc;
+}
+#empresa{
+	height: 560px;
+	background-color: #212cdf;
+}
+textarea{
+	height: 60px;
+}
