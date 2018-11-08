@@ -21,7 +21,7 @@ if(ENVIRONMENT=='development'){
 	$config['dbuser'] = '';
 	$config['dbpass'] = '';
 	$config['url_site'] = '';
-	$config['dir'] = '';
+	$config['dir'] = 'control';
 
 	define("BASE","https://".$config['url_site']."/".$config['dir']."/");
 
