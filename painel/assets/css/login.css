@@ -1,0 +1,79 @@
+body{
+	margin: 0;
+	background-color: #DDD;
+}
+.login_area{
+	width: 268px;
+	height: 268px;
+	background-color: #FFF;
+	position: absolute;
+	left: 50%;
+	top: 50px;
+	margin-left: -150px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 10px #888;
+	border: 1px solid #CCC; 
+	padding: 15px;
+}
+form{
+	padding: 0
+	margin: 0;
+}
+img{	
+	top:30px;	
+}
+.login_area input[type=email],
+.login_area  input[type=password]{
+	
+	width: 245px;
+	outline: 0;
+	font-size: 16px;
+	height: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: 1px solid #CCC;
+
+}
+
+.name_company img{
+	width: 40%;
+	padding-left: 30%;
+	background-position: center;
+}
+
+.login_area  input[type=submit]{
+	width: 100%;
+	height: 40px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 0px;
+
+}
+
+input[type=submit]{
+	background-color: #CCC;
+}
+input[type=submit]:hover{
+	background-color: #AAA;
+	cursor: pointer;
+}
+
+.warning{
+	border: 2px solid #FF0000;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #FF9999;
+	text-align: center;
+	color: #FFF
+}
+
+.ok{
+	border: 2px solid #006400;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #228b22;
+	text-align: center;
+	color: #FFF
+}

@@ -6,9 +6,7 @@
 	<link rel="shortcut icon" href="<?php echo BASE;?>assets/images/favicon.ico" /> 
 	<link rel="stylesheet" type="text/css" href="<?php echo BASE;?>assets/css/template.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo BASE;?>assets/css/ops.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo BASE;?>assets/css/bootstrap.min.css">	
-	<script type="text/javascript" src="<?php echo BASE;?>assets/js/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="<?php echo BASE;?>assets/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="<?php echo BASE;?>assets/js/jquery-3.0.0.min.js"></script>
 	<script type="text/javascript" >var BASE='<?php echo BASE;?>'</script>
 	<script type="text/javascript" src="<?php echo BASE;?>assets/js/script.js"></script>
 </head>

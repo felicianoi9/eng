@@ -1,0 +1,14 @@
+.ops{
+	width: 300px;
+	height: 100px;
+	background-color: #eee;
+	position: absolute;
+	left: 45%;
+	top: 100px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 10px #888;
+	border: 1px solid #CCC; 
+	padding: 20px;
+	text-align: center;
+	font-size: 20px;
+}
