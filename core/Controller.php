@@ -1,6 +1,14 @@
 <?php
 class Controller {
 
+	private $empresa;
+
+	public function __construct(){
+		$emp = new Empresa();
+		$this->empresa = $emp->getInfo();
+		
+	}
+
 	public function loadView($viewName, $viewData = array()){
 
 		extract($viewData); 

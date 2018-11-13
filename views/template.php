@@ -198,6 +198,13 @@
       </div>
     </div>  
 
+  <!-- empresa -->
+  <div  id="empresa" class="container-fluid">
+   
+  </div>
+  
+  <!-- fim - empresa -->  
+
   <!-- Serviços -->
   <div  id="servicos" class="container-fluid">
 
@@ -214,12 +221,7 @@
   
   <!-- fim - produtos -->
 
-  <!-- empresa -->
-  <div  id="empresa" class="container-fluid">
-    
-  </div>
   
-  <!-- fim - empresa -->  
   
 
   <!-- contato e Mapa -->

@@ -17,8 +17,14 @@ class siteController extends Controller{
         $company = new Companies($u->getCompany());
         $data['company_name'] = $company->getName();
         $data['user_name'] = $u->getName();
+
+        $permissions = new Permissions();
+        $data['permissions_list']= $permissions->getList($u->getCompany());
+        $data['permissions_group_list'] = $permissions->getGroupList($u->getCompany()); 
         
 		if($u->hasPermission('site_manager_view')){
+
+            
 
             $this->loadTemplate('site_manager', $data);
         }else{

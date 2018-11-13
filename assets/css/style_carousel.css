@@ -83,10 +83,13 @@ body{
 #produtos{
 	height: 550px;
 	background-color: #ccc;
+	color: #fff;
 }
 #empresa{
+	padding-top: 110px;
 	height: 560px;
 	background-color: #212cdf;
+	color: #fff;
 }
 textarea{
 	height: 60px;
